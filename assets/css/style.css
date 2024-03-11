@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +25,77 @@ a {
   main styling starts here
 =================================*/
 
+body {
+  background-color: #f5d04e;
+  font-family: "Figtree", sans-serif;
+}
+
+main .wrapper {
+  width: 26.5%;
+}
+
+.container {
+  padding: 22px;
+  background-color: #fff;
+  border-left: 2px solid #777;
+  border-top: 2px solid #777;
+  border-radius: 15px;
+  -webkit-box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
+  margin: 215px 0;
+}
+
+.container figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+span {
+  display: inline-block;
+  background-color: #f4d149;
+  padding: 6px 4%;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.container > figure {
+  margin-bottom: 19px;
+}
+
+.container > p:nth-of-type(1) {
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+p:nth-of-type(2) {
+  line-height: 1.4;
+  color: #777;
+  margin-bottom: 22px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-container figure {
+  width: 30px;
+  height: 30px;
+}
+
+.profile-container p {
+  font-size: 14px;
+  font-weight: 800;
+}
 /*=================================
   main styling ends here
 =================================*/
