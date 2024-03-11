@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/RubyMary18/Blog-Preview-Card]
-- Live Site URL: []
+- Live Site URL: [https://rubymary18.github.io/Blog-Preview-Card/]
 
 ## My process
 
