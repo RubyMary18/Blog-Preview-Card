@@ -43,7 +43,7 @@ main .wrapper {
   -webkit-box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
   -moz-box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
   box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
-  margin: 215px 0;
+  margin: 230px 0;
 }
 
 .container figure img {
@@ -73,6 +73,11 @@ span {
 h1 {
   font-size: 24px;
   margin-bottom: 14px;
+}
+
+h1:hover {
+  color: #f6d04f;
+  cursor: pointer;
 }
 
 p:nth-of-type(2) {
@@ -105,49 +110,92 @@ p:nth-of-type(2) {
 /*Responsive Design Desktop-first-approach*/
 /*media query for 1440px starts here*/
 @media only screen and (max-width: 1440px) {
+  .container {
+    margin: 215px 0;
+  }
 }
 
 /*media query for 1024px starts here*/
 @media only screen and (max-width: 1024px) {
+  main .wrapper {
+    width: 35%;
+  }
+
+  .container {
+    margin: 200px 0;
+  }
 }
 
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+  .container {
+    margin: 180px 0;
+  }
+
+  main .wrapper {
+    width: 40%;
+  }
 }
 
 /*media query for 768px starts here*/
 @media only screen and (max-width: 768px) {
+  main .wrapper {
+    width: 50%;
+  }
 }
 
 /*media query for 540px starts here*/
 @media only screen and (max-width: 540px) {
+  main .wrapper {
+    width: 65%;
+  }
 }
 
 /*media query for 480px starts here*/
 @media only screen and (max-width: 480px) {
+  main .wrapper {
+    width: 75%;
+  }
 }
 
-/*Responsive Design Mobile-first-approach*/
-/*media query for 480px starts here*/
-@media only screen and (min-width: 480px) {
-}
+/*media query for 376px starts here*/
+@media only screen and (max-width: 376px) {
+  .container {
+    margin: 150px 0;
+  }
 
-/*media query for 540px starts here*/
-@media only screen and (min-width: 540px) {
-}
+  main .wrapper {
+    width: 88%;
+  }
 
-/*media query for 768px starts here*/
-@media only screen and (max-width: 768px) {
-}
+  .container > figure {
+    height: 190px;
+  }
 
-/*media query for 995px starts here*/
-@media only screen and (min-width: 995px) {
-}
+  .container > figure img {
+    height: 100%;
+    object-fit: cover;
+  }
 
-/*media query for 1024px starts here*/
-@media only screen and (min-width: 1024px) {
-}
+  span {
+    font-size: 12px;
+  }
 
-/*media query for 1440px starts here*/
-@media only screen and (min-width: 1440px) {
+  .container > figure {
+    margin-bottom: 22px;
+  }
+
+  .container > p:nth-of-type(1) {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 19px;
+    margin-bottom: 14px;
+    font-weight: 800;
+  }
+
+  p:nth-of-type(2) {
+    font-size: 13px;
+  }
 }
